@@ -1,2 +1,5 @@
 ---
 # vars file for vector
+clickhouse_addr: #enterendpointhere
+database_name: logs
+table_name: nginx

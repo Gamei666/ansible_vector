@@ -4,6 +4,7 @@
   become: true
   ansible.builtin.apt:
     name: nginx
+    update_cache: true
 - name: Install Vector
   become: true
   ansible.builtin.apt:
